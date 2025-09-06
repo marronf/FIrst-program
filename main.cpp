@@ -2,11 +2,11 @@
 using namespace std;
 
 int main(){
-   int a=1;
-   int b=2;
-   int c=a;
-    a=b;
-    b=c;
-   cout << b;
+   double x;
+   cin>> x;
+   double z=(x-32)/(1.8);
+  
+   cout<<z;
+   
     return 0;
 }
